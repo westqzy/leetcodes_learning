@@ -1,7 +1,7 @@
 '''
 Author: your name
 Date: 2020-11-05 15:47:45
-LastEditTime: 2020-11-05 18:44:00
+LastEditTime: 2020-11-06 12:53:21
 LastEditors: Please set LastEditors
 Description: In User Settings Edit"
 FilePath: \leetcodes\415.字符串相加.py
@@ -20,3 +20,5 @@ class Solution:
 
 print("aaaaa")
 print("aaaaaaaaaaaaa")
+
+qiziyue wo ai ni 
