@@ -1,7 +1,7 @@
 '''
 Author: your name
 Date: 2020-11-05 15:47:45
-LastEditTime: 2020-11-05 19:26:45
+LastEditTime: 2020-11-05 20:38:19
 LastEditors: Please set LastEditors
 Description: In User Settings Edit"
 FilePath: \leetcodes\415.字符串相加.py
@@ -19,7 +19,3 @@ class Solution:
 # @lc code=end
 
 print("iamyoudaddy")
-aaaaaaaaaaaaaa
-aaaaaaasd
-sdddddddddddddddddddddddddddddddddddasd
-

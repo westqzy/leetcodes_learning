@@ -1,2 +1,1 @@
-print("aaaaa")
-print("aaaaaaaaaaaaa")
+print("iamyoudaddy")
