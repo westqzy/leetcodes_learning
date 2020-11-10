@@ -21,5 +21,5 @@ class Solution:
 
 x_bin = bin(10)
 print(x_bin)
-x_bin = x_bin[2:].zfill(32)
+x_bin = x_bin[2:].zfill(32)#补0
 print(x_bin)
