@@ -26,8 +26,6 @@ class Solution:
         #     return nums
         # res=[i for j in nums for i in j]    
         # return [res[i:i+c] for i in range(0,len(res),c)]
-
-。
 # @lc code=end
 
 
