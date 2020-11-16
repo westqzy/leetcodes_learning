@@ -45,6 +45,11 @@ for i in range(5):
     res[i][0] = i
 print(res)
 
+res = [[0] for i in range(5)]
+for i in range(5):
+    res[i][0] = i
+print(res)
+
 
 import numpy as np
 nums = [[1,2],[3,4]]
