@@ -7,16 +7,19 @@
 # @lc code=start
 class Solution:
     def lengthOfLongestSubstring(self, s: str) -> int:
-        hash1 = dict()
-        start = 0
+        p = 0
+        hash1 = set()
         res = 0
+        length = 0
         for i in range(len(s)):
-            if s[i] in hash1.keys() and hash1[s[i]]>=start:
-                start = hash1[s[i]]+1
-            hash1[s[i]] = i
-            print(start, i)
-            res = max(res, i - start + 1)
-            
+            while s[i] in hash1:
+                hash1.remove(s[p])
+                p += 1
+                length -= 1
+            hash1.add(s[i])
+            length += 1
+            res = max(length, res)
         return res
+
 # @lc code=end
 

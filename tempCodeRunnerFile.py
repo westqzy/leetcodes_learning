@@ -1,5 +1,5 @@
-
-import re
-s = "jeSsEJ"
-a = re.findall(r'[A-Z][a-z]|[a-z][A-Z]', s)
-print(a)
+# @lc code=end
+a = (1,2,3)
+b = set()
+b.add(a)
+print(b)
