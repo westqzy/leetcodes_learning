@@ -229,7 +229,11 @@
                             "created": 1609061455774,
                             "text": "转置",
                             "expandState": "expand",
-                            "layout": null
+                            "layout": null,
+                            "layout_right_offset": {
+                                "x": 4,
+                                "y": -1
+                            }
                         },
                         "children": [
                             {
@@ -249,6 +253,86 @@
                                     "layout": null
                                 },
                                 "children": []
+                            }
+                        ]
+                    },
+                    {
+                        "data": {
+                            "id": "c8aw57lo99c0",
+                            "created": 1609815997080,
+                            "text": "拷贝",
+                            "layout_right_offset": {
+                                "x": 0,
+                                "y": 11
+                            },
+                            "hyperlink": "https://blog.csdn.net/qq_24502469/article/details/104185122",
+                            "hyperlinkTitle": ""
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "c8aw5n2y49k0",
+                                    "created": 1609816030776,
+                                    "text": "直接复制",
+                                    "note": "两个列表完全等价",
+                                    "layout_right_offset": {
+                                        "x": 0,
+                                        "y": -5
+                                    }
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "c8aw5zogytk0",
+                                    "created": 1609816058199,
+                                    "text": "浅拷贝",
+                                    "note": "都只实现了第一层的深拷贝\n二维数组就失效了\n"
+                                },
+                                "children": [
+                                    {
+                                        "data": {
+                                            "id": "c8aw62x4k1s0",
+                                            "created": 1609816065253,
+                                            "text": "copy()"
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "c8aw6ckfo0w0",
+                                            "created": 1609816086253,
+                                            "text": "列表生成式"
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "c8aw6e8j5ao0",
+                                            "created": 1609816089887,
+                                            "text": " [ : ] 切片"
+                                        },
+                                        "children": []
+                                    }
+                                ]
+                            },
+                            {
+                                "data": {
+                                    "id": "c8aw76qrkvk0",
+                                    "created": 1609816151939,
+                                    "text": "深拷贝"
+                                },
+                                "children": [
+                                    {
+                                        "data": {
+                                            "id": "c8aw7axprr40",
+                                            "created": 1609816161067,
+                                            "text": "deepcopy()",
+                                            "note": "```\nimport copy\n\nold = [1,[1,2,3],3]\nnew = copy.deepcopy(old)\n```"
+                                        },
+                                        "children": []
+                                    }
+                                ]
                             }
                         ]
                     }
@@ -617,7 +701,7 @@
                             "text": "py中的排列组合itertools",
                             "hyperlink": "https://www.cnblogs.com/xiao-apple36/p/10861830.html",
                             "hyperlinkTitle": "",
-                            "expandState": "collapse",
+                            "expandState": "expand",
                             "layout": null
                         },
                         "children": [
@@ -1057,7 +1141,7 @@
                                     "id": "c85brqkn25s0",
                                     "created": 1609250719296,
                                     "text": "回溯",
-                                    "note": "排序/枚举\n17，22，39，40",
+                                    "note": "排序/枚举\n17，22，39，40,46,47",
                                     "layout": null
                                 },
                                 "children": []
