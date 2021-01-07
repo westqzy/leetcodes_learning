@@ -773,7 +773,7 @@
                                     "id": "c801q350y200",
                                     "created": 1608714579040,
                                     "text": "一些字典不支持的方法",
-                                    "expandState": "collapse",
+                                    "expandState": "expand",
                                     "layout": null
                                 },
                                 "children": [
@@ -1151,7 +1151,7 @@
                                     "id": "c87sqirn1q00",
                                     "created": 1609501702723,
                                     "text": "贪心",
-                                    "note": "31"
+                                    "note": "31,55"
                                 },
                                 "children": []
                             },
@@ -1173,7 +1173,8 @@
                     "id": "c849257bvzc0",
                     "created": 1609141511499,
                     "text": "内置函数 ",
-                    "layout": null
+                    "layout": null,
+                    "expandState": "expand"
                 },
                 "children": [
                     {
