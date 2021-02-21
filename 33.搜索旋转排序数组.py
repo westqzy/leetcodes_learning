@@ -24,25 +24,24 @@ class Solution:
         #     else:
         #         return copy_num_pos[nums[mid]]
         # return -1
-        if not nums:
-            return -1
-        l, r = 0, len(nums) - 1
-        while l <= r:
-            mid = (l + r) // 2
+        left = 0
+        right = len(nums)-1
+        while left <= right:
+            mid = (right + left)//2
             if nums[mid] == target:
                 return mid
-            if nums[0] <= nums[mid]:
-                if nums[0] <= target < nums[mid]:
-                    r = mid - 1
+            if nums[mid] >= nums[left]:# 表明左侧有序
+                if nums[mid] > target >= nums[left]:
+                    right = mid - 1
                 else:
-                    l = mid + 1
-            else:
-                if nums[mid] < target <= nums[len(nums) - 1]:
-                    l = mid + 1
+                    left = mid + 1
+            else:# 表明you侧有序
+                if nums[mid] < target <= nums[right]:
+                    left = mid + 1
                 else:
-                    r = mid - 1
+                    right = mid - 1
+            #print(left, mid, right)
         return -1
-
         # try:
         #     return nums.index(target)
         # except:
